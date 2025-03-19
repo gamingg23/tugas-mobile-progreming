@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Developer mode only for developers"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E7D32"
+        android:padding="10dp"
+        android:text="Gridlayout"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Grid Layout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:padding="16dp">
+
+        <!-- Row 1 -->
+        <TextView android:text="A" style="@style/GridItem" />
+        <TextView android:text="B" style="@style/GridItem" />
+        <TextView android:text="C" style="@style/GridItem" />
+        <TextView android:text="D" style="@style/GridItem" />
+
+        <!-- Row 2 -->
+        <TextView android:text="E" style="@style/GridItem" />
+        <TextView android:text="F" style="@style/GridItem" />
+        <TextView android:text="G" style="@style/GridItem" />
+        <TextView android:text="H" style="@style/GridItem" />
+
+        <!-- Row 3 -->
+        <TextView android:text="I" style="@style/GridItem" />
+        <TextView android:text="J" style="@style/GridItem" />
+        <TextView android:text="K" style="@style/GridItem" />
+        <TextView android:text="L" style="@style/GridItem" />
+
+    </GridLayout>
+</LinearLayout>
